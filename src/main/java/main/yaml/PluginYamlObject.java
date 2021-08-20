@@ -10,6 +10,7 @@ import java.io.IOException;
 public class PluginYamlObject {
 
     protected final File file;
+
     protected YamlConfiguration configuration;
 
     public PluginYamlObject(final @NotNull String filename) {
